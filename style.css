@@ -1,0 +1,41 @@
+body { 
+    font-family: 'Space Grotesk', sans-serif; 
+}
+.font-syne { 
+    font-family: 'Syne', sans-serif; 
+}
+.bg-mesh {
+    background: radial-gradient(at 0% 0%, hsla(253,16%,7%,1) 0, transparent 50%), 
+    radial-gradient(at 50% 0%, rgb(72, 103, 159) 0, transparent 50%), 
+    radial-gradient(at 100% 0%, rgb(128, 65, 148) 0, transparent 50%);
+}
+.text-neon { 
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(223, 104, 217, 0.5); 
+}
+.weare{
+   background: 
+    radial-gradient(at 0% 20%, hsla(253,16%,7%,1) 0, transparent 50%), 
+    radial-gradient(at 0% 80%, rgb(41, 38, 99) 0, transparent 50%); 
+}
+.member {
+  background-color: #0d0d12;
+  background-image:
+    radial-gradient(at 100% 0%, rgba(84, 72, 138, 0.5) 0, transparent 50%),
+    radial-gradient(at 0% 80%, rgba(84, 72, 138, 0.5) 0, transparent 50%);
+}
+.album{
+   background-color: #0d0d12;
+  background-image:
+    radial-gradient(at 50% 100%, rgba(40, 18, 137, 0.6) 0, transparent 80%);
+}
+.ticket{
+    background-color: rgb(0, 6, 12);
+    background-image: 
+    radial-gradient(at 0% 100%, rgba(57, 61, 164, 0.5) 0, transparent 50%);
+}
+.footer{
+     background-color: #0d0d12;
+     background-image:
+    radial-gradient(at 100% 0%, rgba(63, 57, 92, 0.5) 0, transparent 50%),
+    radial-gradient(at 0% 80%, rgba(78, 70, 110, 0.5) 0, transparent 50%);
+}

@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aevroom</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.10.1/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Space+Grotesk:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-[#050505] text-white">
+<header class="fixed top-0 z-50 w-full bg-black/20 backdrop-blur-md border-b border-white/10">
+    <div class="mx-auto flex h-16 max-w-screen-xl items-center justify-between px-4 sm:px-6 lg:px-8">
+        <a class="flex items-center gap-2 text-2xl font-bold tracking-tighter font-syne italic text-purple-500" href="#">
+          AEVROOM
+        </a>
+    <nav class="hidden md:block">
+        <ul class="flex items-center gap-8 text-sm font-medium uppercase tracking-widest">
+            <li><a class="hover:text-purple-500 transition" href="#about">About</a></li>
+            <li><a class="hover:text-purple-500 transition" href="#lineup">Lineup</a></li>
+            <li><a class="hover:text-purple-500 transition" href="#album">Album</a></li>
+            <li><a class="hover:text-purple-500 transition" href="#song">Song</a></li>
+            <li><a class="hover:text-purple-500 transition" href="#ticket">Ticket</a></li>
+            <li><a class="hover:text-purple-500 transition" href="#tour">Tour</a></li>
+        </ul>
+    </nav>
+    <div class="flex items-center gap-4">
+        <button> <a class="text-white btn btn-sm btn-outline border-purple-500 text-white-500 hover:bg-purple-500 hover:border-purple-500 rounded-none px-6" href="#contact">Contact</a></button>
+    </div>
+    </div>
+</header>
+<section class="relative min-h-screen flex items-center justify-center overflow-hidden bg-mesh">
+    <div class="container mx-auto px-5 py-24 flex flex-col items-center text-center relative z-10">
+        <div class="badge badge-outline border-purple-500 text-cyan mb-4 px-4 py-3 font-bold uppercase">Comeback</div>
+        <h1 class="font-syne text-6xl md:text-9xl mb-8 leading-none tracking-tighter uppercase text-neon">ONE HEART <br> <span class="bg-clip-text text-transparent bg-gradient-to-r from-blue-900 via-purple-500 to-cyan-400">ONE BEAT</span>
+        </h1>
+        <p class="mb-10 max-w-2xl text-lg md:text-xl text-gray-300 font-light tracking-wide">
+        We’re blurring the lines between us and the music. Feel the adrenaline, and let your heart find its rhythm.</p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="#ticket" class="btn btn-md bg-purple-600 hover:bg-purple-900 border-none text-white rounded-none shadow-[0_0_20px_rgba(192,38,211,0.4)]">
+                    GET TICKETS
+                </a>
+                <a href="#lineup" class="btn btn-md btn-outline border-purple-500 hover:bg-purple-700  text-white rounded-none shadow-rgba(192,38,211,0.4)] rounded-none">
+                    VIEW LINEUP
+                </a>
+            </div>
+    </div>
+    <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-pink-600/10 rounded-full blur-[120px] -z-0"></div>
+</section>
+<section id="about" class="weare py-32">
+    <div class="container mx-auto px-4">
+        <div class="grid md:grid-cols-2 gap-20 items-center">
+            <div class="reveal">
+                <div class="inline-block px-4 py-1.5 border border-purple-500/30 rounded-full text-purple-500 text-xs font-bold mb-6">
+                    AEVROOM
+                </div>
+                <h2 class="text-4xl md:text-5xl font-bold mb-8 leading-tight text-white">
+                  A Supernova of   <span class="text-blue-500">Sound & Vision</span>
+                </h2>
+                <p class="text-gray-400 max-w-2xl mx-auto text-start mt-4 font-light">
+                We are <span class="aevroom font-bold text-purple-500">AEVROOM</span> born from Kwangya. A powerful fusion of talent, we bring music to life with every beat. We are a rising girl group known for our unique style, strong vocals, and captivating performances.</p>
+                <div class="mt-4 grid grid-cols-2 gap-8">
+                    <div>
+                        <h5 class="text-2xl font-bold text-white mb-2">180+</h5>
+                        <p class="text-slate-500 text-sm">Consert goers</p>
+                    </div>
+                    <div>
+                        <h5 class="text-2xl font-bold text-white mb-2">50+</h5>
+                        <p class="text-slate-500 text-sm">Song</p>
+                    </div>
+                </div>
+            </div>
+            <div class="relative reveal" style="transition-delay: 0.3s;">
+                <div class="absolute -inset-4 bg-blue-500/20 rounded-[2rem] blur-xl"></div>
+                <div class="relative rounded-[2rem] overflow-hidden border border-white/10 shadow-2xl">
+                    <img src="assett/aespa.jpeg" alt="Concert" class="w-full grayscale hover:grayscale-0 transition duration-700">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="lineup" class="member pb-20">
+<div class="container mx-auto px-4 pt-20 ">
+    <div class="flex flex-col w-full text-center mb-10">
+            <div class="relative group mx-auto inline-block pb-2">
+                <h2 class="text-4xl font-syne uppercase cursor-pointer">lineup</h2>
+                <span class="absolute bottom-0 left-1/2 -translate-x-1/2 h-[2px] w-0 bg-gradient-to-r from-pink-500 via-purple-500 to-cyan-500 transition-all duration-500 group-hover:w-full"></span>
+            </div>
+        </div>
+  <div class="carousel rounded-box w-full gap-4"> 
+    <div class="carousel-item">
+        <div class="flex relative h-96 w-72 shrink-0 overflow-hidden rounded-2xl shadow-xl"> 
+            <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="assett/Karina.jpeg">      
+            <div class="px-6 py-8 relative z-10 w-full h-full bg-gradient-to-t  from-black/90 via-black/40 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end">
+                <h2 class="tracking-widest text-xs font-bold text-indigo-400 mb-1 uppercase">members</h2>
+                <h1 class="text-xl font-bold text-white mb-2 font-syne">Karina</h1>
+                <p class="leading-relaxed text-xs text-gray-300">
+                    As the leader and center of aespa, Karina is praised for her charisma, stage presence, and versatility in rap, dance, and vocals.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="carousel-item">
+        <div class="flex relative h-96 w-72 shrink-0 overflow-hidden rounded-2xl shadow-xl"> 
+            <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="assett/winter.jpeg">      
+            <div class="px-6 py-8 relative z-10 w-full h-full bg-gradient-to-t  from-black/90 via-black/40 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end">
+                <h2 class="tracking-widest text-xs font-bold text-indigo-400 mb-1 uppercase">members</h2>
+                <h1 class="text-xl font-bold text-white mb-2 font-syne">Winter</h1>
+                <p class="leading-relaxed text-xs text-gray-300">
+                    Beyond singing and dancing, she is known for being a skilled performer with strong vocals, contributing to the group's "metaspace" concept.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="carousel-item">
+        <div class="flex relative h-96 w-72 shrink-0 overflow-hidden rounded-2xl shadow-xl"> 
+            <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="assett/gissle.jpeg">      
+            <div class="px-6 py-8 relative z-10 w-full h-full bg-gradient-to-t  from-black/90 via-black/40 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end">
+                <h2 class="tracking-widest text-xs font-bold text-indigo-400 mb-1 uppercase">members</h2>
+                <h1 class="text-xl font-bold text-white mb-2 font-syne">Gissele</h1>
+                <p class="leading-relaxed text-xs text-gray-300">
+                    As aespa's main rapper and sub vocal position. She is known for her rap skills She has a background in choir (alto) and plays guitar.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="carousel-item">
+        <div class="flex relative h-96 w-72 shrink-0 overflow-hidden rounded-2xl shadow-xl"> 
+            <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="assett/ning nign.jpeg">      
+            <div class="px-6 py-8 relative z-10 w-full h-full bg-gradient-to-t  from-black/90 via-black/40 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end">
+                <h2 class="tracking-widest text-xs font-bold text-indigo-400 mb-1 uppercase">Members</h2>
+                <h1 class="text-xl font-bold text-white mb-2 font-syne">Ning Ning</h1>
+                <p class="leading-relaxed text-xs text-gray-300">
+                    Ningning is a foundational vocal pillar for aespa, often handling challenging high notes and ad-libs in songs like "Black Mamba" and "Drama".
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</section>
+
+<section id="album" class="album py-24 bg-[#080808]">
+        <div class="container mx-auto px-5">
+             <div class="flex flex-col w-full text-center mb-10">
+            <div class="relative group mx-auto inline-block pb-2">
+                <h2 class="text-4xl font-syne uppercase cursor-pointer">Our albums</h2>
+                <span class="absolute bottom-0 left-1/2 -translate-x-1/2 h-[2px] w-0 bg-gradient-to-r from-pink-500 via-purple-500 to-cyan-500 transition-all duration-500 group-hover:w-full"></span>
+            </div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="group relative overflow-hidden bg-neutral aspect-square">
+                    <img src="assett/next level.jpeg" class="object-cover w-full h-full opacity-60 group-hover:opacity-100 group-hover:scale-110 transition duration-700 ease-in-out" />
+                    <div class="absolute bottom-0 left-0 p-8 w-full bg-gradient-to-t from-black to-transparent">
+                        <span class="text-xs uppercase tracking-[0.3em] text-cyan-400">Debut Album</span>
+                        <h3 class="text-3xl font-syne uppercase mt-1">Next Level</h3>
+                    </div>
+                </div>
+
+                <div class="group relative overflow-hidden bg-neutral aspect-square">
+                    <img src="assett/girls.jpeg" class="object-cover w-full h-full opacity-60 group-hover:opacity-100 group-hover:scale-110 transition duration-700 ease-in-out" />
+                    <div class="absolute bottom-0 left-0 p-8 w-full bg-gradient-to-t from-black to-transparent">
+                        <span class="text-xs uppercase tracking-[0.3em] text-pink-500">First Comeback</span>
+                        <h3 class="text-3xl font-syne uppercase mt-1">Girls</h3>
+                    </div>
+                </div>
+
+                <div class="group relative overflow-hidden bg-neutral aspect-square">
+                    <img src="assett/supernova.jpeg" class="object-cover w-full h-full opacity-60 group-hover:opacity-100 group-hover:scale-110 transition duration-700 ease-in-out" />
+                    <div class="absolute bottom-0 left-0 p-8 w-full bg-gradient-to-t from-black to-transparent">
+                    <span class="text-xs uppercase tracking-[0.3em] text-yellow-400">Last Comeback</span>
+                        <h3 class="text-3xl font-syne uppercase mt-1">Supernova</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<section id="song" class="lagu py-20 bg-[#050505]">
+    <div class="container mx-auto px-5">
+        <div class="flex flex-col w-full text-center mb-10">
+            <div class="relative group mx-auto inline-block pb-2">
+                <h2 class="text-4xl font-syne uppercase cursor-pointer">Top songs</h2>
+                <span class="absolute bottom-0 left-1/2 -translate-x-1/2 h-[2px] w-0 bg-gradient-to-r from-pink-500 via-purple-500 to-cyan-500 transition-all duration-500 group-hover:w-full"></span>
+            </div>
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">           
+            <div class="w-full">
+                <ul class="bg-white/5 rounded-3xl p-2 shadow-2xl border border-white/10 backdrop-blur-sm">
+                    <li class="p-6 pb-4 text-xs opacity-60 tracking-[0.2em] uppercase text-blue-400 font-bold">Top Chart This Week</li>                    
+                    <li class="flex items-center gap-4 p-4 hover:bg-white/10 transition-all duration-300 rounded-2xl group cursor-pointer">
+                        <div class="text-3xl font-thin opacity-20 font-syne w-10">01</div>
+                        <img class="w-14 h-14 rounded-xl object-cover shadow-lg" src="assett/supernova.jpeg"/>
+                        <div class="flex-grow">
+                            <div class="font-bold text-white group-hover:text-purple-400 transition">Supernova</div>
+                            <div class="text-[10px] uppercase font-semibold opacity-50 tracking-wider">aevroom</div>
+                        </div>
+                    </li>
+                    <li class="flex items-center gap-4 p-4 hover:bg-white/10 transition-all duration-300 rounded-2xl group cursor-pointer">
+                        <div class="text-3xl font-thin opacity-20 font-syne w-10">02</div>
+                        <img class="w-14 h-14 rounded-xl object-cover shadow-lg" src="assett/supernova.jpeg"/>
+                        <div class="flex-grow">
+                            <div class="font-bold text-white group-hover:text-purple-400 transition">Armagedon</div>
+                            <div class="text-[10px] uppercase font-semibold opacity-50 tracking-wider">aevroom</div>
+                        </div>
+                    </li>
+                    <li class="flex items-center gap-4 p-4 hover:bg-white/10 transition-all duration-300 rounded-2xl group cursor-pointer">
+                        <div class="text-3xl font-thin opacity-20 font-syne w-10">03</div>
+                        <img class="w-14 h-14 rounded-xl object-cover shadow-lg" src="assett/girls.jpeg"/>
+                        <div class="flex-grow">
+                            <div class="font-bold text-white group-hover:text-purple-400 transition">Girls</div>
+                            <div class="text-[10px] uppercase font-semibold opacity-50 tracking-wider">aevroom</div>
+                        </div>
+                    </li>
+                    <li class="flex items-center gap-4 p-4 hover:bg-white/10 transition-all duration-300 rounded-2xl group cursor-pointer">
+                        <div class="text-3xl font-thin opacity-20 font-syne w-10">04</div>
+                        <img class="w-14 h-14 rounded-xl object-cover shadow-lg" src="assett/next level.jpeg"/>
+                        <div class="flex-grow">
+                            <div class="font-bold text-white group-hover:text-purple-400 transition">Next level</div>
+                            <div class="text-[10px] uppercase font-semibold opacity-50 tracking-wider">aevroom</div>
+                        </div>
+                    </li>
+                    <li class="flex items-center gap-4 p-4 hover:bg-white/10 transition-all duration-300 rounded-2xl group cursor-pointer">
+                        <div class="text-3xl font-thin opacity-20 font-syne w-10">05</div>
+                        <img class="w-14 h-14 rounded-xl object-cover shadow-lg" src="assett/girls.jpeg"/>
+                        <div class="flex-grow">
+                            <div class="font-bold text-white group-hover:text-purple-400 transition">Illusion</div>
+                            <div class="text-[10px] uppercase font-semibold opacity-50 tracking-wider">aevroom</div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="relative group">
+                <div class="absolute -inset-4 bg-gradient-to-r from-blue-700 to-cyan-500 rounded-3xl blur-2xl opacity-20 group-hover:opacity-40 transition duration-1000"></div>               
+                <div class="relative overflow-hidden rounded-3xl border border-white/10">
+                    <img src="assett/stage.jpg" 
+                         alt="Concert Experience" 
+                         class="w-full h-[510px] object-cover grayscale-[20%] hover:grayscale-0 transition-all duration-700 scale-100 hover:scale-110">                    
+                    <div class="absolute bottom-0 left-0 right-0 p-8 bg-gradient-to-t from-black/80 to-transparent">
+                        <h3 class="text-2xl font-syne uppercase text-white">Experience The Beat</h3>
+                        <p class="text-sm text-gray-300 mt-2">Feel the energy of AEVROOM live on stage.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="tour" class="text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto">
+        <div class="flex flex-col w-full text-center mb-10">
+            <div class="relative group mx-auto inline-block pb-2">
+                <h2 class="text-4xl font-syne uppercase cursor-pointer text-white">World Tour</h2>
+                <span class="absolute bottom-0 left-1/2 -translate-x-1/2 h-[2px] w-0 bg-gradient-to-r from-pink-500 via-purple-500 to-cyan-500 transition-all duration-500 group-hover:w-full"></span>
+            </div>
+        </div>   
+    <div class="flex flex-wrap -m-4">
+      <div class="lg:w-1/3 sm:w-1/2 p-4">
+        <div class="flex relative h-64 w-full"> 
+        <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="assett/konser 2.jpeg">
+          <div class="px-8 py-10 relative z-10 w-full border-4 border-transparent bg-black/60 opacity-0 flex flex-col justify-center items-center hover:opacity-100 transition-opacity duration-300">
+            <h2 class="tracking-widest text-sm title-font font-bold text-indigo-400 mb-1">Seoul, South Korea</h2>
+            <p class="title-font text-sm text-white text-center mb-3 font-light">KSPO Dome consert in<br> 29-31 August 2025</p>
+          </div>
+        </div>
+      </div>
+      <div class="lg:w-1/3 sm:w-1/2 p-4">
+        <div class="flex relative h-64 w-full"> 
+        <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="assett/konse 1.jpeg">
+          <div class="px-8 py-10 relative z-10 w-full border-4 border-transparent bg-black/60 opacity-0 flex flex-col justify-center items-center hover:opacity-100 transition-opacity duration-300">
+            <h2 class="tracking-widest text-sm title-font font-bold text-indigo-400 mb-1">Tokyo, Japan</h2>
+            <p class="title-font text-sm text-white text-center mb-3 font-light">Festival Summer Supersonic in <br> 16-17 Agustus 2025 </p>
+          </div>
+        </div>
+      </div>
+      <div class="lg:w-1/3 sm:w-1/2 p-4">
+        <div class="flex relative h-64 w-full"> 
+        <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="assett/lolapalooza.webp">
+          <div class="px-8 py-10 relative z-10 w-full border-4 border-transparent bg-black/60 opacity-0 flex flex-col justify-center items-center hover:opacity-100 transition-opacity duration-300">
+            <h2 class="tracking-widest text-sm title-font font-bold text-indigo-400 mb-1">London, UK</h2>
+            <p class="title-font text-sm text-white text-center mb-3 font-light">Aevroom tour in <br> 2 Maret 2025</p>
+          </div>
+        </div>
+      </div>
+      <div class="lg:w-1/3 sm:w-1/2 p-4">
+        <div class="flex relative h-64 w-full"> 
+        <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="assett/ice bsd jakarya.jpeg">
+          <div class="px-8 py-10 relative z-10 w-full border-4 border-transparent bg-black/60 opacity-0 flex flex-col justify-center items-center hover:opacity-100 transition-opacity duration-300">
+            <h2 class="tracking-widest text-sm title-font font-bold text-indigo-400 mb-1">Jakarta, Indonesia</h2>
+            <p class="title-font text-sm text-white text-center mb-3 font-light">SYNK:aeList tour consert in <br> 4 April 2026</p>
+          </div>
+        </div>
+      </div>
+      <div class="lg:w-1/3 sm:w-1/2 p-4">
+        <div class="flex relative h-64 w-full"> 
+        <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="assett/konser 4.jpeg">
+          <div class="px-8 py-10 relative z-10 w-full border-4 border-transparent bg-black/60 opacity-0 flex flex-col justify-center items-center hover:opacity-100 transition-opacity duration-300">
+            <h2 class="tracking-widest text-sm title-font font-bold text-indigo-400 mb-1">Bangkok, Thailand</h2>
+            <p class="title-font text-sm text-white text-center mb-3 font-light">Impact Area consert in <br> 15-16 November 2025</p>
+          </div>
+        </div>
+      </div>
+      <div class="lg:w-1/3 sm:w-1/2 p-4">
+        <div class="flex relative h-64 w-full"> 
+        <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="assett/konser 3.jpeg">
+          <div class="px-8 py-10 relative z-10 w-full border-4 border-transparent bg-black/60 opacity-0 flex flex-col justify-center items-center hover:opacity-100 transition-opacity duration-300">
+            <h2 class="tracking-widest text-sm title-font font-bold text-indigo-400 mb-1">Sydney, Australia</h2>
+            <p class="title-font text-sm text-white text-center mb-3 font-light">Live tour Parallel line in <br> 29-31 August 2025 </p>
+          </div>
+        </div>
+      </div>
+    </div> 
+      </div>
+</section>
+<section id="ticket" class="ticket py-10 px-5">
+    <div class="text-center mb-10">
+            <div class="relative group mx-auto inline-block pb-2">
+                <h2 class="text-4xl font-syne uppercase cursor-pointer">Ticket Cost</h2>
+                <span class="absolute bottom-0 left-1/2 -translate-x-1/2 h-[2px] w-0 bg-gradient-to-r from-pink-500 via-purple-500 to-cyan-500 transition-all duration-500 group-hover:w-full"></span>
+            </div>
+        </div>
+  <div class="max-w-[950px] mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 items-center">
+
+    <div class="group relative h-[320px] rounded-3xl border border-blue-500/20 bg-blue-500/5 p-6 flex flex-col justify-between transition-all duration-500 hover:scale-105 hover:border-blue-500/50 cursor-pointer">
+      <div class="relative">
+        <h3 class="text-gray-400 text-[10px] tracking-widest uppercase font-bold">Category</h3>
+        <p class="text-3xl font-bold text-white mt-1">Festival</p>
+        <ul class="text-gray-500 text-[11px] mt-6 space-y-3">
+            <li class="flex items-center gap-3"> 
+                <div class="w-1.5 h-1.5 rounded-full bg-blue-500"></div> 
+                <span class="text-gray-300">Standing Area</span>
+            </li>
+            <li class="flex items-center gap-3"> 
+                <div class="w-1.5 h-1.5 rounded-full bg-blue-500"></div> 
+                <span class="text-gray-300">Standard Entry</span>
+            </li>
+        </ul>
+      </div>
+      <button onclick="openModal()" class="relative w-full py-3 border border-white/10 rounded-2xl text-[10px] font-bold text-white uppercase group-hover:bg-white/5 transition">Book Festival</button>
+    </div>
+
+    <div class="group relative h-[360px] rounded-3xl border-2 border-blue-500 bg-gradient-to-br from-blue-600/20 to-purple-600/20 p-8 flex flex-col justify-between transition-all duration-500 hover:scale-110 shadow-[0_0_40px_-10px_rgba(59,130,246,0.4)] z-10 cursor-pointer">
+      <div class="absolute -top-3 left-1/2 -translate-x-1/2">
+        <span class="bg-blue-500 text-white text-[8px] font-black px-4 py-1.5 rounded-full uppercase tracking-widest shadow-lg">Sold Out Fast</span>
+      </div>
+      <div class="relative">
+        <h3 class="text-blue-400 text-[10px] tracking-widest uppercase font-bold">Category</h3>
+        <p class="text-4xl font-bold text-white mt-1">VVIP</p>
+        <ul class="text-gray-200 text-[11px] mt-6 space-y-3">
+            <li class="flex items-center gap-3"> 
+                <div class="w-1.5 h-1.5 rounded-full bg-blue-500"></div> 
+                <span class="text-gray-300">Soundcheck Access</span>
+            </li>
+            <li class="flex items-center gap-3"> 
+                <div class="w-1.5 h-1.5 rounded-full bg-blue-500"></div> 
+                <span class="text-gray-300">Hi-Touch Session</span>
+            </li>
+            <li class="flex items-center gap-3"> 
+                <div class="w-1.5 h-1.5 rounded-full bg-blue-500"></div> 
+                <span class="text-gray-300">VVIP area</span>
+            </li>
+            <li class="flex items-center gap-3"> 
+                <div class="w-1.5 h-1.5 rounded-full bg-blue-500"></div> 
+                <span class="text-gray-300">Lounge Eksklusif</span>
+            </li>
+        </ul>
+      </div>
+      <button onclick="openModal()" class="relative w-full py-4 bg-gradient-to-r from-blue-500 to-purple-600 rounded-2xl text-xs font-black text-white uppercase shadow-lg hover:brightness-125 transition">Buy Ticket</button>
+    </div>
+    <div class="group relative h-[320px] rounded-3xl border border-purple-500/20 bg-purple-500/5 p-6 flex flex-col justify-between transition-all duration-500 hover:scale-105 hover:border-purple-500/50 cursor-pointer">
+      <div class="relative">
+        <h3 class="text-gray-400 text-[10px] tracking-widest uppercase font-bold">Category</h3>
+        <p class="text-3xl font-bold text-white mt-1">VIP</p>
+        <ul class="text-gray-500 text-[11px] mt-6 space-y-3">
+          <li class="flex items-center gap-2">
+           <div class="w-1.5 h-1.5 rounded-full bg-blue-500"></div> 
+                <span class="text-gray-300">Numbered Seating</span>
+          </li>
+          <li class="flex items-center gap-2">
+            <div class="w-1.5 h-1.5 rounded-full bg-blue-500"></div> 
+                <span class="text-gray-300">Fast Track Entry</span>
+          </li>
+          <li class="flex items-center gap-2">
+            <div class="w-1.5 h-1.5 rounded-full bg-blue-500"></div> 
+                <span class="text-gray-300">Lounge Eksklusif</span>
+          </li>
+        </ul>
+      </div>
+      <button onclick="openModal()" class="w-full py-3 border border-white/10 rounded-2xl text-[10px] font-bold text-white uppercase group-hover:bg-white/5 transition">Buy Ticket</button>      
+    </div>
+  </div>
+</div>
+
+<!-- MODAL -->
+<div id="myModal" class="fixed inset-0 z-50 hidden items-center justify-center bg-black/50 backdrop-blur-sm p-4" role="dialog" aria-modal="true"> 
+  <div class="w-full max-w-md rounded-lg bg-gray-900 p-6 shadow-lg">   
+    <!-- HEADER -->
+    <div class="flex items-start justify-between">
+      <h2 class="text-xl font-bold text-white">
+        Book Ticket
+      </h2>
+      <button onclick="closeModal()" class="-me-4 -mt-4 rounded-full p-2 text-gray-400 hover:bg-gray-800 hover:text-white">
+      </button>
+    </div>
+    <!-- CONTENT -->
+    <div class="mt-4 space-y-4">
+      <p class="text-gray-400 text-sm">
+        Fill this form to secure your ticket
+      </p>
+      <input type="text" placeholder="Your Name"
+        class="w-full px-4 py-2 rounded-lg bg-gray-800 text-gray-300 placeholder-gray-500 outline-none">
+      <input id="email" type="email" placeholder="example@gmail.com"
+        class="w-full px-4 py-2 rounded-lg bg-gray-800 text-gray-300 placeholder-gray-500 outline-none">
+    </div>
+    
+    <div class="mt-6 flex justify-end gap-2">
+      <button onclick="closeModal()" class="px-4 py-2 text-sm bg-gray-700 text-gray-300 rounded hover:bg-gray-600">
+        Cancel
+      </button>
+
+      <button onclick="closeModal()" class="px-4 py-2 text-sm bg-blue-600 text-white rounded hover:bg-blue-700">
+        Done
+      </button>
+    </div>
+  </div>
+</section>
+
+<div id="contact" class="max-w-screen-lg mx-auto px-6 py-16">
+  <div class="grid grid-cols-1 gap-8 md:grid-cols-2">
+    <div class="md:py-4">
+      <h2 class="text-2xl font-bold text-blue-500 sm:text-3xl dark:text-white">Get in touch</h2>
+      <p class="mt-4 text-pretty text-gray-300 dark:text-gray-200">
+        Stay connected for the latest updates on our upcoming world tour and exclusive releases. We would love to hear your thoughts or assist with any inquiries you may have.
+      </p>
+      <dl class="mt-6 space-y-3">
+        <div>
+          <dt class="sr-only">Phone number</dt>
+          <dd class="grid grid-cols-[24px_1fr] items-center gap-2 text-white dark:text-gray-200">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 1.5H8.25A2.25 2.25 0 0 0 6 3.75v16.5a2.25 2.25 0 0 0 2.25 2.25h7.5A2.25 2.25 0 0 0 18 20.25V3.75a2.25 2.25 0 0 0-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3"></path>
+            </svg>
+            <span class="font-medium">+1 (555) 123-4567</span>
+          </dd>
+        </div>
+        <div>
+          <dt class="sr-only">Email</dt>
+          <dd class="grid grid-cols-[24px_1fr] items-center gap-2 text-white dark:text-gray-200">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"></path>
+            </svg>
+
+            <span class="font-medium">aevroom@gmail.com</span>
+          </dd>
+        </div>
+        <div>
+          <dt class="sr-only">Location</dt>
+          <dd class="grid grid-cols-[24px_1fr] items-center gap-2 text-white dark:text-gray-200">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"></path>
+            </svg>
+            <span class="font-medium">SM Entertaintment, South Korea</span>
+          </dd>
+        </div>
+      </dl>
+    </div>
+
+    <form action="#" class="space-y-4 rounded-lg border border-gray-700 bg-black p-6">
+  <div>
+    <label class="block text-md font-medium text-gray-600" for="name">
+      Name
+    </label>
+    <input class="mt-1 w-full rounded-lg border border-gray-700 bg-gray-900 text-gray-400 placeholder-gray-500 px-4 py-2 focus:border-indigo-500 focus:outline-none placeholder:font-light" id="name" type="text" placeholder="Your name">
+  </div>
+  <div>
+    <label class="block text-sm font-medium text-gray-600" for="email">
+      Email
+    </label>
+    <input class="mt-1 w-full rounded-lg border border-gray-700 bg-gray-900 text-gray-400 placeholder-gray-500 px-4 py-2 focus:border-indigo-500 focus:outline-none placeholder:font-light" id="email" type="email" placeholder="example@gmail.com">
+  </div>
+  <div>
+    <label class="block text-sm font-medium text-gray-600" for="message">
+      Message
+    </label>
+    <textarea class="mt-1 w-full rounded-lg border border-gray-700 bg-gray-900 text-gray-400 placeholder-gray-500 px-4 py-2 focus:border-indigo-500 focus:outline-none placeholder:font-light" id="message" rows="4" placeholder="Your message"></textarea>
+  </div>
+  <button class="block w-full rounded-lg border border-indigo-600 bg-indigo-600 px-12 py-3 text-sm font-medium text-white transition-colors hover:bg-transparent hover:text-indigo-600">
+    Send Message
+  </button>
+</form>
+  </div>
+</div>
+<footer class="footer flex text-white">
+  <div class="max-w-screen-lg mx-auto px-6 py-16">
+    <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
+      <div>
+        <div class="text-purple-600">
+          AEVROOM
+        </div>
+
+        <p class="mt-4 max-w-xs text-white">
+          Synching the world through melody. Join our journey into the digital wilderness
+        </p>
+
+        <ul class="mt-8 flex gap-6">
+          <li>
+            <a href="#" rel="noreferrer" target="_blank" class="text-white transition hover:opacity-75">
+              <span class="sr-only">Facebook</span>
+
+              <svg class="size-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd"></path>
+              </svg>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" rel="noreferrer" target="_blank" class="text-white transition hover:opacity-75">
+              <span class="sr-only">Instagram</span>
+
+              <svg class="size-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z" clip-rule="evenodd"></path>
+              </svg>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" rel="noreferrer" target="_blank" class="text-white transition hover:opacity-75">
+              <span class="sr-only">Twitter</span>
+
+              <svg class="size-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"></path>
+              </svg>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" rel="noreferrer" target="_blank" class="text-white transition hover:opacity-75">
+              <span class="sr-only">YouTube</span>
+                <svg class="size-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.377.505 9.377.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path>
+                </svg>
+             </a>
+          </li>
+
+          <li>
+            <a href="#" rel="noreferrer" target="_blank" class="text-white transition hover:opacity-75">
+              <span class="sr-only">Dribbble</span>
+
+              <svg class="size-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.9-.32-1.98-.23-2.81.3a3.39 3.39 0 0 0-1.49 2.45c-.12.93.12 1.89.73 2.58.6.67 1.48 1.06 2.39 1.03 1.05-.02 2.05-.62 2.6-1.52.33-.53.48-1.15.46-1.77.01-3.83 0-7.66.01-11.49z"></path>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:col-span-2 lg:grid-cols-4">
+        <div>
+          <p class="font-medium text-white">Services</p>
+
+          <ul class="mt-6 space-y-4 text-sm">
+            <li>
+              <a href="#about" class="text-white transition hover:opacity-75">About</a>
+            </li>
+
+            <li>
+              <a href="#about" class="text-white transition hover:opacity-75">Album</a>
+            </li>
+
+            <li>
+              <a href="#song" class="text-white transition hover:opacity-75">
+                Song
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <p class="font-medium text-white">Lineup</p>
+
+          <ul class="mt-6 space-y-4 text-sm">
+            <li>
+              <a href="#lineup" class="text-white transition hover:opacity-75">Karina</a>
+            </li>
+
+            <li>
+              <a href="#lineup" class="text-white transition hover:opacity-75">Winter</a>
+            </li>
+
+            <li>
+              <a href="#lineup" class="text-white transition hover:opacity-75">
+                Gissele
+              </a>
+            </li>
+            <li>
+              <a href="#lineup" class="text-white transition hover:opacity-75">
+                Ning ning
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <p class="font-medium text-white">Schedule</p>
+
+          <ul class="mt-6 space-y-4 text-sm">
+            <li>
+              <a href="#" class="text-white transition hover:opacity-75">Fanmeeet</a>
+            </li>
+
+            <li>
+              <a href="#tour" class="text-white transition hover:opacity-75">Tour</a>
+            </li>
+
+            <li>
+              <a href="#" class="text-white transition hover:opacity-75"> Live Chat </a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <p class="font-medium text-white">Support</p>
+
+          <ul class="mt-6 space-y-4 text-sm">
+            <li>
+              <a href="#contact" class="text-white transition hover:opacity-75">Contact</a>
+            </li>
+
+            <li>
+              <a href="#" class="text-white transition hover:opacity-75">Privacy Policy</a>
+            </li>
+
+            <li>
+              <a href="#" class="text-white transition hover:opacity-75">FAQ</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <p class="text-xs text-white">© 2022. Company Name. All rights reserved.</p>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
